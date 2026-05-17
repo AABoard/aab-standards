@@ -1,0 +1,51 @@
+name: Standards comment
+description: Submit a comment, evidence question, or revision proposal for AAB standards work.
+title: "[Standards]: "
+labels: ["status:needs-triage"]
+body:
+  - type: input
+    id: draft_or_topic
+    attributes:
+      label: Draft, clause, or topic
+      description: Identify the affected standard, clause, topic, or grade band.
+    validations:
+      required: true
+  - type: dropdown
+    id: comment_type
+    attributes:
+      label: Comment type
+      options:
+        - Clause language
+        - Grade-band progression
+        - Evidence trace
+        - Terminology
+        - Assessment guidance
+        - Ethical or safety concern
+        - Editorial correction
+        - Process question
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue or recommendation
+      description: Describe the concern or proposed improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_language
+    attributes:
+      label: Proposed language
+      description: Include suggested wording if available.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or rationale
+      description: Link public sources, registry records, frameworks, or implementation evidence.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: This comment does not include private student data, credentials, or confidential partner information.
+          required: true
