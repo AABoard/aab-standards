@@ -1,4 +1,4 @@
-# AAB Standards
+# AABoard Standards
 
 This repository is the public collaboration layer for AAB standards work. It hosts draft standards, clause rationale, evidence traces, public comments, response-to-comments records, and released versions for AI literacy, AI education assessment, and evidence-based evaluation of AI learning programs.
 
@@ -17,14 +17,14 @@ This repository is the public collaboration layer for AAB standards work. It hos
 - The live MongoDB registry.
 - Website application code.
 - Private reviewer deliberations that are not ready for public record.
-- Unapproved claims presented as final AAB standards.
+- Unapproved claims presented as final AABoard standards.
 
 ## Repository Structure
 
 - `drafts/` - working standards drafts by topic.
 - `evidence-trace/` - links between clauses and supporting registry/source evidence.
 - `public-comments/` - consultation comments and issue summaries.
-- `response-to-comments/` - AAB responses to accepted, rejected, or deferred comments.
+- `response-to-comments/` - AABoard responses to accepted, rejected, or deferred comments.
 - `terminology/` - approved terms, definitions, and taxonomy notes.
 - `released/` - versioned approved or consultation-ready outputs.
 - `templates/` - reusable drafting and review templates.
@@ -33,7 +33,7 @@ This repository is the public collaboration layer for AAB standards work. It hos
 ## Standards Development Flow
 
 1. A contributor opens a standards comment, evidence question, or draft proposal.
-2. AAB reviewers classify the issue by topic, clause, age/grade band, evidence need, and review status.
+2. AABoard reviewers classify the issue by topic, clause, age/grade band, evidence need, and review status.
 3. Accepted changes are made through pull requests with rationale and source trace.
 4. Review decisions are recorded in response-to-comments documents.
 5. Released versions are tagged and stored in `released/`.
